@@ -1,0 +1,49 @@
+---
+name: 김채형
+surname: 
+position: "데이터 분석가"
+address: "경기도 고양시 일산동구"
+phone: +82 010-7705-4689
+email: "cheris8@naver.com"
+github: cheris8
+date: "`r format(Sys.time(), '%B %Y')`"
+header-includes:
+  - \usepackage{kotex}
+output:
+  vitae::hyndman:
+    pdf_document:
+      latex_engine: xelatex
+mainfont: NanumBarunpen
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+
+# 학력
+```{r education}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  '문헌정보학과', '2017.03 - 2021.02', '연세대학교', '대한민국, 서울'
+  ) %>%
+    detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+# 프로젝트
+```{r prject}
+tribble(
+  ~ Period, ~ Host, ~ Desc,
+  '2019.07 - 2019.08', '부동산 가격 예측', '다방 데이터를 대상으로 부동산 가격 예측 모델 구현',
+    '2020.03 - 2020.06', '부동산 가격 예측 프로그램', '네이버 부동산 데이터를 바탕으로 클러스터링과 시계열 분석을 활용하여 부동산 가격 예측하는 대시보드 구현',
+          '2020.03 - 2020.06', '방송콘텐츠가치평가지표 개선방안 제안', '네이버 뉴스 기사 / 네이버 블로그 포스팅 / 유투브 댓글을 대상으로 텍스트마이닝을 활용하여 드라마 가치 요인 규명',
+  '2020.05 - 2020.06', '서울시 행복도 예측', '서울서베이 데이터를 바탕으로 서울시민의 행복도에 영향을 미치는 요인 파악 및 행복도 예측 모델 구현',
+  ) %>%
+    detailed_entries(
+      what = Host,
+      when = Period,
+      where = Desc
+      )
+```
