@@ -1,9 +1,9 @@
 # Resume
 
 ## About ME
-
+<!--
 ![프로필사진]()
-
+-->
 - 김채형 (Chae Hyeong Kim)
 - E-mail: cheris8h@gmail.com
 - GitHub: <https://github.com/cheris8>
@@ -33,7 +33,7 @@
     - `Python` `Pytorch` `Deep Learning` `NLP`
     - [Github](https://github.com/cheris8/ESC_NLP_FINAL)
 - 텍스트마이닝을 통한 드라마 가치 요인 개발 프로젝트
-    - 2018년 방영 드라마를 대상으로 네이버 뉴스기사, 네이버 블로그, 유튜브 댓글을 크롤링하여 토픽 모델링 및 공기어 분석을 통해 드라마 가치 요인을 규명
+    - 2018년 방영 드라마를 대상으로 네이버 뉴스기사, 네이버 블로그, 유튜브 댓글을 크롤링하여 토픽 모델링, 공기어 분석, 감성 분석을 통해 드라마 가치 요인을 규명
     - `Python` `Gephi` `Machine Learning`
     - [Report](https://cheris8.github.io/text%20mining/TM-Project-Drama/)
 - 서울특별시 아파트 가격 예측 대시보드 구축
