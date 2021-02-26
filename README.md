@@ -28,6 +28,10 @@
 
 ## Project
 
+- 인스타그램 해시태그 추천 시스템
+    - 이미지를 입력하면 입력 이미지와 유사한 K개의 이미지의 해시태그를 바탕으로 태그 전환 및 확장을 반복하여 추천 태그를 생성하여 출력
+    - `Python` `Keras` `Deep Learning` `CV` `NLP`
+    - [Github](https://github.com/cheris8/Instagram-hashtag-generator)
 - 트랜스포머 구현
     - Attention is all you need 논문을 리뷰하고 이를 바탕으로 트랜스포머 구현
     - `Python` `Pytorch` `Deep Learning` `NLP`
@@ -36,8 +40,8 @@
     - 2018년 방영 드라마를 대상으로 네이버 뉴스기사, 네이버 블로그, 유튜브 댓글을 크롤링하여 토픽 모델링, 공기어 분석, 감성 분석을 통해 드라마 가치 요인을 규명
     - `Python` `Gephi` `Machine Learning`
     - [Report](https://cheris8.github.io/text%20mining/TM-Project-Drama/)
-- 서울특별시 아파트 가격 예측 대시보드 구축
-    - 네이버에서 서울 아파트 정보를 크롤링하여 DB에 저장하고 이를 불러와 가격을 예측하여 아파트 이름을 입력하면 가격을 출력하는 대시보드 구현
+- 서울시 아파트 가격 예측 대시보드 구축
+    - 네이버에서 서울시 아파트 정보를 크롤링하여 DB에 저장하고 이를 불러와 가격을 예측하여 아파트 이름을 입력하면 가격을 출력하는 대시보드 구현
     - `R` `Python` `SQL` `Machine Learning`
     - [Github](https://github.com/cheris8/ProjectCasa)
 - 제주 신용카드 빅데이터 경진대회
@@ -55,7 +59,7 @@
     - 2019 캐글 서베이 데이터를 바탕으로 데이터사이언스 분야 업무 종사자 현황, 시장 동향, 기술 동향 등을 분석 및 대시보드로 시각화
     - `R` `Tableau` `Visualization`
     - [Report]()
-- 서울특별시 아파트 가격 예측
+- 서울시 아파트 가격 예측
     - 다방 데이터를 크롤링 하여 서울 소재 아파트 가격 예측
     - `R` `Machine Learning`
     - [Report]()
