@@ -49,11 +49,10 @@
     - [Github](https://github.com/cheris8/2020_jeju_creditcard)
 - KBO 정규시즌 팀별 승률, 타율 및 방어율(평균자책점) 예측 
     - `R` `Python` `Machine Learning`
-    - [[Github]](https://github.com/cheris8/Baseball_ChilliShrimp)
+    - [Github](https://github.com/cheris8/Baseball_ChilliShrimp)
 - 서울시 행복도 예측 프로젝트
     - 2014 서울서베이 데이터를 바탕으로 행복도에 영향을 미치는 요인 파악 및 행복도 예측
     - `R` `Python` `Machine Learning`
-    - [Github](https://github.com/cheris8/ESC-20SPRING/tree/master/파이널%20프로젝트/3조)
     - [Report](https://github.com/cheris8/ESC-20SPRING/blob/master/파이널%20프로젝트/3조/20-1%20ESC%20파이널%20최종발표%20자료%203조.pdf)
 - 데이터사이언스 분야 분석 및 시각화
     - 2019 캐글 서베이 데이터를 바탕으로 데이터사이언스 분야 업무 종사자 현황, 시장 동향, 기술 동향 등을 분석 및 대시보드로 시각화
