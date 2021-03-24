@@ -23,8 +23,8 @@
     - datacamp ([Click here for more info.](https://www.datacamp.com/profile/cheris8))
     - 개별적으로 5주 간 R을 활용한 데이터사이언스 교육 이수
     - 머신러닝 스터디 ([Click here for Git Repo.](https://github.com/cheris8/ESC_ML_STUDY))
-    - 파이썬 알고리즘과 자료구조 스터디 ([Click here for Git Repo.](https://github.com/cheris8/Python_Algorithm))
     - NLP 기초 스터디 ([Click here for Git Repo.](https://github.com/cheris8/ESC_NLP_STUDY))
+    - 파이썬 알고리즘과 자료구조 스터디 ([Click here for Git Repo.](https://github.com/cheris8/Python_Algorithm))
 
 ### Activities
 - 연세대학교 통계&데이터사이언스 학회 ESC (2020.03 ~ 2021.02)
@@ -40,32 +40,8 @@
 
 ## Project
 
-### 인스타그램 해시태그 추천 시스템 
-- 입력 이미지에 대하여 자동으로 해시태그를 생성해주는 해시태그 추천 시스템
-- 이미지를 입력하면 입력 이미지와 유사한 K개의 이미지의 해시태그를 바탕으로 태그 전환 및 확장을 반복하여 추천 태그를 생성하여 출력
-- `Python` `Keras` `Deep Learning` `CV` `NLP`
-- [Click here for Git Repo.](https://github.com/cheris8/Instagram-hashtag-generator)
-1. Data Collection
-    - 인기 해시태그 Top 100을 기준으로 해시태그 1개 당 포스트 100개씩 수집
-    - 인스타그램 포스트로부터 이미지 url, 이미지 파일, 장소 태그, 본문 해시태그, 댓글 해시태그 수집
-2. Data Preprocessing & EDA
-    - 전체에서 출현 빈도가 1인 해시태그 제거
-    - `customized konlpy`를 활용하여 사용자 사전을 적용하여 해시태그 토큰화
-    - 토큰화 결과 중 동일한 토큰이 연속하여 나오는 경우 토큰 확장에서 성능 저하로 이어져 제거
-3. Modeling
-    - 토큰 간 유사도를 계산하기 위해 워드 임베딩 방법론 중 `Word2Vec` 사용
-    - 이미지 간 유사도를 계산하기 위해 ImageNet이 학습된 `VGG19`를 완전분류기를 제거하여 사용
-    - 단어 벡터 간 유사도를 활용하여 **토큰 전환** 알고리즘 개발
-    - 출현 빈도에 기반한 조건부 확률을 활용하여 **토큰 확장** 알고리즘 개발
-
-### 트랜스포머 구현
-- Attention is all you need 논문을 리뷰하고 이를 바탕으로 트랜스포머 구현
-- `Python` `Pytorch` `Deep Learning` `NLP`
-- [Click here for Git Repo.](https://github.com/cheris8/ESC_NLP_FINAL)
-
 ### 텍스트마이닝을 통한 드라마 가치 요인 개발
 - 2018년 방영 드라마를 대상으로 네이버 뉴스기사, 네이버 블로그, 유튜브 댓글을 크롤링하여 토픽 모델링, 공기어 분석, 감성 분석을 통해 드라마 가치 요인을 규명
-- `Python` `Gephi` `Machine Learning`
 - [Click here for Doc.](https://cheris8.github.io/data%20analysis/TM-Project-Drama/)
 1. Background
     - 오늘날 방송 플랫폼이 다원화되고 VOD, 넷플릭스 등을 통한 후속 시청이 많아짐에 따라 방송콘텐츠의 가치를 고전적인 가치 평가 기준인 시청률로 측정하는 데에 한계가 발생했다.
@@ -74,7 +50,7 @@
 2. Data Collection
     - 분석 대상 : 2018년 방영 드라마 중 평균/최고/최저 시청률 상위 5위 진입 횟수, 네이버 뉴스 기사/네이버 블로그 포스팅/유튜브 동영상 댓글 수를 종합적으로 고려하여 총 15개의 드라마 선정
     - 텍스트 데이터 수집 대상 : 각 드라마에 대한 네이버 뉴스 기사, 네이버 블로그 포스팅, 유튜브 동영상 댓글
-    - 텍스트 데이터 수집 기간 : 각 드라마 별로 방영시작일 1개월 전 ~ 방영종료일 12개월 후
+    - 텍스트 데이터 수집 기간 : 각 드라마 별로 방영 시작일 1개월 전 ~ 방영 종료일 12개월 후
 3. Data Preprocessing
     - 한글 형태소 분석기로 Komoran/Mecab 사용
     - 각 드라마 별로 불용어 사전 생성 및 적용, 빈도 수에 기반한 불용어 처리
@@ -91,9 +67,29 @@
     - 드라마 관련 이슈 : 드라마 방영 당시 해당 드라마에 있어 어떠한 이슈가 등장했고, 그 이슈에 대해 대중들이 얼마나 긍정 혹은 부정적으로 반응했는지에 대한 부분을 살펴볼 필요가 있다.
     - OTT 플랫폼 활용 : 해당 드라마가 얼마나 다양한 OTT 플랫폼에서 제공되는지, 방영 종료 후 얼마나 즉각적으로 제공되는지(동시 제공 등)에 관한 부분을 고려해야 한다.
 
+### 인스타그램 해시태그 추천 시스템 
+- 입력 이미지에 대하여 자동으로 해시태그를 생성해주는 해시태그 추천 시스템
+- 이미지를 입력하면 입력 이미지와 유사한 K개의 이미지의 해시태그를 바탕으로 태그 전환 및 확장을 반복하여 추천 태그를 생성하여 출력
+- [Click here for Git Repo.](https://github.com/cheris8/Instagram-hashtag-generator)
+1. Data Collection
+    - 인기 해시태그 Top 100을 기준으로 해시태그 1개 당 포스트 100개씩 수집
+    - 인스타그램 포스트로부터 이미지 url, 이미지 파일, 장소 태그, 본문 해시태그, 댓글 해시태그 수집
+2. Data Preprocessing & EDA
+    - 전체에서 출현 빈도가 1인 해시태그 제거
+    - `customized konlpy`를 활용하여 사용자 사전을 적용하여 해시태그 토큰화
+    - 토큰화 결과 중 동일한 토큰이 연속하여 나오는 경우 토큰 확장에서 성능 저하로 이어져 제거
+3. Modeling
+    - 토큰 간 유사도를 계산하기 위해 워드 임베딩 방법론 중 `Word2Vec` 사용
+    - 이미지 간 유사도를 계산하기 위해 ImageNet이 학습된 `VGG19`를 완전분류기를 제거하여 사용
+    - 단어 벡터 간 유사도를 활용하여 토큰 전환 알고리즘 개발
+    - 출현 빈도에 기반한 조건부 확률을 활용하여 토큰 확장 알고리즘 개발
+
+### 트랜스포머 구현
+- Attention is all you need 논문을 리뷰하고 이를 바탕으로 트랜스포머 구현
+- [Click here for Git Repo.](https://github.com/cheris8/ESC_NLP_FINAL)
+
 ### 서울시 아파트 가격 예측 대시보드 구축
 - 네이버에서 서울시 아파트 정보를 크롤링하여 DB에 저장하고 이를 불러와 가격을 예측하여 아파트 이름을 입력하면 가격을 출력하는 대시보드 구현
-- `R` `Python` `SQL` `Machine Learning`
 - [Click here for Git Repo.](https://github.com/cheris8/ProjectCasa)
 1. Data Collection
     - 아파트 : 네이버 부동산 웹사이트로부터 서울시 아파트의 단지 정보, 시세/실거래가, 학군 정보를 수집하여 데이터베이스에 저장
@@ -114,24 +110,13 @@
 ### KBO 정규시즌 팀별 승률, 타율 및 방어율(평균자책점) 예측 
 - 주최 : BIGCONTEST
 - 기간 : 2020년 7월 ~ 2020년 10월
-- `R` `Python` `Machine Learning`
 - [Click here for Git Repo.](https://github.com/cheris8/Baseball_ChilliShrimp)
 
 ### 제주 신용카드 빅데이터 경진대회
 - 주최 : DACON
-- 기간 : 2020년 6월 ~ 2020년 8월
-- `R` `Python` `Machine Learning` 
+- 기간 : 2020년 6월 ~ 2020년 8월 
 - [Click here for Git Repo.](https://github.com/cheris8/2020_jeju_creditcard)
 
 ### 서울시 행복도 예측
 - 2014 서울서베이 데이터를 바탕으로 행복도에 영향을 미치는 요인 파악 및 행복도 예측
-- `R` `Python` `Machine Learning`
 - [Click here for Doc.](https://cheris8.github.io/data%20analysis/DA-Project-Happy/)
-
-### 데이터사이언스 분야 분석 및 시각화
-- 2019 캐글 서베이 데이터를 바탕으로 데이터사이언스 분야 업무 종사자 현황, 시장 동향, 기술 동향 등을 분석 및 대시보드로 시각화
-- `R` `Tableau` `Visualization`
-
-### 서울시 아파트 가격 예측
-- 다방 데이터를 크롤링 하여 서울 소재 아파트 가격 예측
-- `R` `Machine Learning`
