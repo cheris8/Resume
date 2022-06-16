@@ -4,8 +4,8 @@
 <!--
 ![프로필사진]()
 -->
-- 김채형 (Chae Hyeong Kim)
-- E-mail : cheris8h@gmail.com
+- 김채형 (Chaehyeong Kim)
+- E-mail : cheris8@naver.com
 - GitHub : <https://github.com/cheris8>
 - Blog : <https://cheris8.github.io>
 
